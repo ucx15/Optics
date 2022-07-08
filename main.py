@@ -131,8 +131,8 @@ display = pygame.display
 clock = pygame.time.Clock()
 
 # Setup
-Sys = System(mir_type = -1, rays = 500, ray_pos = Vec(-w,0), offset = .5, max_depth=1)
-Sys.mirror.r = 2
+Sys = System(mir_type = 1, rays = 20, ray_pos = Vec(-w,0), offset = 1, max_depth=1)
+Sys.mirror.r = 1
 
 run = True
 while run:
